@@ -1,5 +1,6 @@
 module.exports = {
-    pathPrefix: `/politic`,
+    // pathPrefix: `/politic`,
+    pathPrefix: `/`,
     siteMetadata: {
       title: `Foam`,
     },
