@@ -1,6 +1,7 @@
+const { NODE_ENV } = process.env
+
 module.exports = {
-    // pathPrefix: `/politic`,
-    pathPrefix: `/`,
+    pathPrefix: (NODE_ENV == 'production') ? `/politic` : '/',
     siteMetadata: {
       title: `Foam`,
     },
